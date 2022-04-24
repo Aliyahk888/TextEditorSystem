@@ -21,7 +21,7 @@ public class WritePermissionsDecorator extends PermissionsDecorator{
 
 	private void setWritePermissions(Permissions decoratedPermissions, File temp)
 	{
-		temp=temp.setWritable(true);
+		temp.setWritable(true);
 		System.out.println("Write permission granted");
 
 	}
